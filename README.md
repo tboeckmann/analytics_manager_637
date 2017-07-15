@@ -32,7 +32,7 @@ For the data source please use the following database and read-only user details
   Database: startup_analytics
 ```
 
-Note: you can use any of your preferred tools/ methods to connect to the database.
+Note: You can use any of your preferred tools/ methods to connect to the database. Further information on connecting to a DB Instance can be found [here](http://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_ConnectToPostgreSQLInstance.html).
 
 ## Database Schema
 The database consists of 2 tables, where `project_id` can be used to correlate the projects:
