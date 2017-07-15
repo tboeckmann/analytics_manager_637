@@ -47,6 +47,8 @@ This table contains the project details for each project.
 ```
 
 ### 2. kickstarter_results
+This table contains the dates, backers and final status for each project.
+
 ```
   project_id varchar,             -- unique id of project
   deadline timestamp,             -- date the goal must be achieved by
