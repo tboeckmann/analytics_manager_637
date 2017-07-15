@@ -2,7 +2,10 @@
  
 ## Task Instructions:
 
-Analyze the dataset to produce answers to the following challenges. You should include a doc summarizing the outputs along with the relevant data in an excel spreadsheet. Please attach any code and SQL queries that were used.
+Analyze the dataset to produce answers to the following challenges. You should include a doc summarizing the outputs along with the relevant data in an excel spreadsheet.
+
+Please attach any code and SQL queries that were used.
+
 This should be completed within 48 hours.
 
 1) What is the average goal amount of funded projects; 
@@ -28,14 +31,14 @@ For the data source please use the following database and read-only user details
 Note: you can use any of your preferred tools/ methods to connect to the database.
 
 ## Database Schema
-The database consists of 2 tables:
+The database consists of 2 tables, where `project_id` can be used to correlate the projects:
 
 ### 1. kickstarter_projects
 This table contains the project details for each project.
 ```
   project_id varchar,             -- unique id of project
   name varchar,                   -- name of the project
-  description varchar,                   -- description of project
+  description varchar,            -- description of project
   goal varchar,                   -- the goal (amount) required for the project
   keywords varchar,               -- keywords which describe project
   disable_communication boolean,  -- whether the project authors has disabled communication option with people donating to the project
@@ -43,7 +46,7 @@ This table contains the project details for each project.
   currency varchar                -- currency in which goal (amount) is required
 ```
 
-### 1. kickstarter_results
+### 2. kickstarter_results
 ```
   project_id varchar,             -- unique id of project
   deadline timestamp,             -- date the goal must be achieved by
