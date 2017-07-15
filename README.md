@@ -8,7 +8,7 @@ Please attach any code and SQL queries that were used.
 
 This should be completed within 48 hours.
 
-1) What is the average goal amount of funded projects; 
+1) What is the average goal amount of funded projects?
 2) what average goal amount of non-funded project? 
 3) What are the top 20 keywords of funded projects?
 3) What are the top 20 keywords of non-funded projects?
