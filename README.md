@@ -2,14 +2,18 @@
  
 ## Task Instructions:
 
-Analyze the dataset to produce answers to the following challenges. You should include a doc summarizing the outputs along with the relevant data in an excel spreadsheet.
+Connect to the Postgres database using instructions found in the repository.
+
+Analyze the dataset to produce answers to the following challenges.
+
+You should include a doc summarizing the outputs along with the relevant data in an excel spreadsheet.
 
 Please attach any code and SQL queries that were used.
 
 This should be completed within 48 hours.
 
 1) What is the average goal amount of funded projects?
-2) what average goal amount of non-funded project? 
+2) What average goal amount of non-funded project? 
 3) What are the top 20 keywords of funded projects?
 3) What are the top 20 keywords of non-funded projects?
 4) How many backers did successful projects have on average?  
