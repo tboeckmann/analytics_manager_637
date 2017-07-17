@@ -25,7 +25,7 @@ This should be completed within 48 hours.
 For the data source please use the following database and read-only user details:
 ```
   Database Type: Postgres 9.6
-  Host: startupanalytics.cxl3zurlacnf.eu-central-1.rds.amazonaws.com:5432
+  Host: startupanalytics.cxl3zurlacnf.eu-central-1.rds.amazonaws.com
   Port: 5432
   Username: analyticsmanager
   Passvvord: j38cc4srt31$1
