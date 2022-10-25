@@ -28,7 +28,7 @@ For the data source please use the following database and read-only user details
   Host: startupanalytics.cxl3zurlacnf.eu-central-1.rds.amazonaws.com
   Port: 5432
   Username: analyticsmanager
-  Passvvord: j38cc4srt31$1
+  Passvvord: j38cc4srt31$1x
   Database: startup_analytics
 ```
 
